@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Nav() {
   return (
-    <nav className="rounded d-flex sticky-top m-1 p-2 align-items-center nav-color">
+    <nav className="rounded d-flex sticky-top m-1 p-2 align-items-center">
       <div className="me-auto p-2">
         <Link
           to="/portfolio"

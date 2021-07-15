@@ -7,6 +7,7 @@ export default function Footer() {
             className="text-white text-decoration-none link-light git-link"
             href="https://github.com/sent-sys"
             target="_blank"
+            rel="noreferrer"
           >
             Github
           </a>
@@ -19,6 +20,7 @@ export default function Footer() {
             className="text-white text-decoration-none link-light git-link"
             href="https://www.linkedin.com/in/matthewnh/"
             target="_blank"
+            rel="noreferrer"
           >
             LinkedIn
           </a>
