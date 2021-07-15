@@ -22,3 +22,7 @@ hr {
 .card-width {
   width: 45%;
 }
+
+.git-link:hover {
+  color: #7d8597 !important;
+}
