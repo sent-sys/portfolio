@@ -6,8 +6,8 @@ import Nav from "../Layout/Nav";
 export default function Home() {
   return (
     <div className="home-color m-1 p-2 rounded shadow">
+      <Nav />
       <Fade>
-        <Nav />
         <div>
           <div className="mt-3 m-5 before-intro"></div>
           <h1 className="text-white text-center m-3">My name is Matthew Ho</h1>
