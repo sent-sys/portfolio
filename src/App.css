@@ -30,3 +30,13 @@ hr {
 .after-intro {
   height: 800px;
 }
+
+@media screen and (max-width: 375px) {
+  .before-intro {
+    height: 150px;
+  }
+
+  .after-intro {
+    height: 400px;
+  }
+}
