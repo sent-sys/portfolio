@@ -16,11 +16,9 @@ export default function Home() {
           </h1>
           <div className="mb-3 m-5 after-intro"></div>
         </div>
-        <Fade>
-          <List />
-        </Fade>
-        <Footer />
       </Fade>
+      <List />
+      <Footer />
     </div>
   );
 }
