@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Nav() {
   return (
-    <nav className="container-fluid d-flex justify-content-end sticky-top p-2 align-items-center">
+    <nav className="rounded d-flex sticky-top m-1 p-2 align-items-center nav-color">
       <div className="me-auto p-2">
         <Link
           to="/"
@@ -11,8 +11,8 @@ export default function Nav() {
           <h3 className="m-2 navi-link">M. H.</h3>
         </Link>
       </div>
-      <div className="col-2 w-auto mx-1">
-        <Link className="btn button-color" to="/">
+      <div className="col-2 d-flex justify-content-end">
+        <Link className="btn btn-primary position-relative me-2" to="/">
           Home
         </Link>
       </div>
