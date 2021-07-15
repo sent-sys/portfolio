@@ -4,8 +4,8 @@ export default function List() {
   return (
     <div>
       <div className="row p-2">
-        <div className="col-4">
-          <div className="card text-white card-bg shadow">
+        <div className="col-12 col-sm-6 col-md-4">
+          <div className="card text-white card-bg shadow my-2">
             <img src="images/1.jpg" className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title text-center">Project 1</h5>
@@ -16,8 +16,8 @@ export default function List() {
             </div>
           </div>
         </div>
-        <div className="col-4">
-          <div className="card text-white card-bg shadow">
+        <div className="col-12 col-sm-6 col-md-4">
+          <div className="card text-white card-bg shadow my-2">
             <img src="images/2.jpg" className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title text-center">Project 2</h5>
@@ -28,8 +28,8 @@ export default function List() {
             </div>
           </div>
         </div>
-        <div className="col-4">
-          <div className="card text-white card-bg shadow">
+        <div className="col-12 col-sm-6 col-md-4">
+          <div className="card text-white card-bg shadow my-2">
             <img src="images/3.jpg" className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title text-center">Project 3</h5>
