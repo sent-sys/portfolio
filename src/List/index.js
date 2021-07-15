@@ -6,7 +6,11 @@ export default function List() {
       <div className="row p-2">
         <div className="col-12 col-sm-6 col-md-4">
           <div className="card text-white card-bg shadow my-2">
-            <img src="images/1.jpg" className="card-img-top" alt="..." />
+            <img
+              src="images/1.jpg"
+              className="card-img-top"
+              alt="Screenshot placeholder"
+            />
             <div className="card-body">
               <h5 className="card-title text-center">Project 1</h5>
               <p className="card-text">Quick project description.</p>
@@ -18,7 +22,11 @@ export default function List() {
         </div>
         <div className="col-12 col-sm-6 col-md-4">
           <div className="card text-white card-bg shadow my-2">
-            <img src="images/2.jpg" className="card-img-top" alt="..." />
+            <img
+              src="images/2.jpg"
+              className="card-img-top"
+              alt="Screenshot placeholder"
+            />
             <div className="card-body">
               <h5 className="card-title text-center">Project 2</h5>
               <p className="card-text">Quick project description.</p>
@@ -30,7 +38,11 @@ export default function List() {
         </div>
         <div className="col-12 col-sm-6 col-md-4">
           <div className="card text-white card-bg shadow my-2">
-            <img src="images/3.jpg" className="card-img-top" alt="..." />
+            <img
+              src="images/3.jpg"
+              className="card-img-top"
+              alt="Screenshot placeholder"
+            />
             <div className="card-body">
               <h5 className="card-title text-center">Project 3</h5>
               <p className="card-text">Quick project description.</p>

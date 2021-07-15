@@ -22,3 +22,11 @@ hr {
 .git-link:hover {
   color: #7d8597 !important;
 }
+
+.before-intro {
+  height: 350px;
+}
+
+.after-intro {
+  height: 800px;
+}
