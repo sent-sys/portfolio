@@ -1,4 +1,5 @@
 import List from "../List";
+import Footer from "../Layout/Footer";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <h3 className="text-white text-center m-5">I make WebApps</h3>
       <hr className="color-primary mb-5"></hr>
       <List />
+      <Footer />
     </div>
   );
 }
