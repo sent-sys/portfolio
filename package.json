@@ -41,6 +41,7 @@
     ]
   },
   "devDependencies": {
-    "react-reveal": "^1.2.2"
+    "react-reveal": "^1.2.2",
+    "react-scroll-motion": "^0.2.1"
   }
 }

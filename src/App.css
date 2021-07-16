@@ -3,6 +3,10 @@ body {
   font-family: Roboto Mono, sans-serif;
 }
 
+.about-section {
+  height: 1000px;
+}
+
 .home-color {
   background-color: #001845 !important;
 }

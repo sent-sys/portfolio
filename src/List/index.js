@@ -4,7 +4,7 @@ import { Fade } from "react-reveal";
 export default function List() {
   return (
     <div>
-      <Fade>
+      <Fade bottom>
         <div className="row p-2">
           <div className="col-12 col-sm-6 col-md-4">
             <div className="card text-white card-bg shadow my-2">

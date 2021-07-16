@@ -7,17 +7,20 @@ export default function Nav() {
         <div className="me-auto p-2">
           <a
             href="#top"
-            className="m-1 d-flex text-decoration-none text-white align-items-center"
+            className="d-flex text-white align-items-center text-decoration-none"
           >
             <h4 className="m-2 navi-link">Matthew Ho</h4>
           </a>
+          <Link to="/portfolio" className="text-decoration-none">
+            <h5 className="ms-2 text-white navi-link small">portfolio</h5>
+          </Link>
         </div>
       </div>
       <div className="col-6">
         <div className="d-flex justify-content-end">
           <Link
             className="btn btn-primary position-relative me-2"
-            to="/portfolio"
+            to="/portfolio/about"
           >
             about
           </Link>

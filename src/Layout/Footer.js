@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="footer align-items-center mt-5">
+    <div className="footer align-items-center my-5">
       <div className="row d-flex">
         <div className="col-4 d-flex justify-content-center">
           <a
