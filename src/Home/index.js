@@ -18,6 +18,8 @@ export default function Home() {
               <h1 className="text-white text-center m-3">
                 My name is Matthew Ho
               </h1>
+            </Fade>
+            <Fade bottom delay={1000}>
               <h1 className="text-white text-center m-3">
                 I build and design ideas on the internet
               </h1>
