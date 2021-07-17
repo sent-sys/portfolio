@@ -11,6 +11,14 @@ export default function Footer() {
           >
             Github
           </a>
+          <a
+            className="text-white text-decoration-none link-light git-link"
+            href="https://docs.google.com/document/d/1y4nawcWlo6l-v6Qckkenj2s0cWCc53D4q2IzAXft2i0/edit?usp=sharing"            
+            target="_blank"
+            rel="noreferrer"
+          >
+            Resume
+          </a>
         </div>
         <div className="col-4 d-flex justify-content-center align-items-center">
           <p className="small text-white">© 2021 Matthew Ho</p>
@@ -23,6 +31,14 @@ export default function Footer() {
             rel="noreferrer"
           >
             LinkedIn
+          </a>
+          <a
+            className="text-white text-decoration-none link-light git-link"
+            href="https://www.linkedin.com/in/matthewnh/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Email
           </a>
         </div>
       </div>
