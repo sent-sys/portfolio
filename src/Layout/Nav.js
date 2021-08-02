@@ -9,10 +9,12 @@ export default function Nav() {
             href="#top"
             className="d-flex text-white align-items-center text-decoration-none"
           >
-            <h4 className="m-2 navi-link">Matthew Ho</h4>
+            <h4 className="m-2 navi-link git-link">Matthew Ho</h4>
           </a>
           <Link to="/portfolio" className="text-decoration-none">
-            <h5 className="ms-2 text-white navi-link small">portfolio</h5>
+            <h5 className="ms-2 text-white navi-link small git-link">
+              portfolio
+            </h5>
           </Link>
         </div>
       </div>
