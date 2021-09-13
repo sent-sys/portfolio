@@ -9,7 +9,7 @@ export default function List() {
           <div className="col-12 col-sm-6 col-md-4">
             <div className="card text-white card-bg shadow my-2">
               <img
-                src="ResPNG.png"
+                src="images/ResPNG.png"
                 className="card-img-top"
                 alt="Restaurant Reservation System"
               />
@@ -18,11 +18,21 @@ export default function List() {
                   Restaurant Reservation System
                 </h5>
                 <p className="card-text">
-                  A full-stack application that solves the Restaurant
-                  Reservation system. \n Built
+                  A full-stack application that simulates a Restaurant
+                  Reservation system; built with React, Node.js, Express, and
+                  Bootstrap.
                 </p>
-                <Link to="/" className="btn btn-primary">
-                  (placeholder GITHUB link)
+                <Link
+                  to="https://github.com/sent-sys/portfolio"
+                  className="btn btn-primary"
+                >
+                  Github
+                </Link>
+                <Link
+                  to="https://fc-restaurant-res-frontend.herokuapp.com/"
+                  className="btn btn-warning"
+                >
+                  Heroku Live Demo
                 </Link>
               </div>
             </div>
