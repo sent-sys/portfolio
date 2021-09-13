@@ -20,8 +20,8 @@ export default function About() {
           ReactJS, CSS3, HTML5, Javascript(ES6+), and Bootstrap.
         </h4>
         <h4 className="px-5 mt-3 text-white text-center">
-          I'm interested in Full-Stack development as I believe front-end design
-          is just as exciting as back-end.
+          I'm interested in Front-End development as I feel most inspired by
+          client-facing design work.
         </h4>
       </Fade>
     </div>

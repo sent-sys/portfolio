@@ -9,13 +9,18 @@ export default function List() {
           <div className="col-12 col-sm-6 col-md-4">
             <div className="card text-white card-bg shadow my-2">
               <img
-                src="images/1.jpg"
+                src="ResPNG.png"
                 className="card-img-top"
-                alt="Screenshot placeholder"
+                alt="Restaurant Reservation System"
               />
               <div className="card-body">
-                <h5 className="card-title text-center">Project 1</h5>
-                <p className="card-text">Quick project description.</p>
+                <h5 className="card-title text-center">
+                  Restaurant Reservation System
+                </h5>
+                <p className="card-text">
+                  A full-stack application that solves the Restaurant
+                  Reservation system. \n Built
+                </p>
                 <Link to="/" className="btn btn-primary">
                   (placeholder GITHUB link)
                 </Link>
