@@ -9,19 +9,25 @@ export default function About() {
       </Fade>
       <Fade bottom>
         <h4 className="px-5 mt-5 text-white text-center">
-          I'm currently a student in the Software Engineering Immersion program
-          with Thinkful.
+          I'm a recent grad from the Software Engineering Immersion program with
+        </h4>
+        <h4 className="px-5 text-center">
+          <a className="text-decoration-none" href="https://www.thinkful.com">
+            Thinkful.
+          </a>
         </h4>
         <h4 className="px-5 text-white text-center">
-          Using skills I've learned from my background in CS and programming, I
-          am pursuing a career in the Tech industry. My abilities favor:
+          Using the full-stack skills I've honed through the program, and skills
+          I've learned from my background in CS and programming, I am pursuing a
+          career in the Tech industry. My abilities favor:
         </h4>
         <h4 className="px-5 mt-3 text-white text-center">
           ReactJS, CSS3, HTML5, Javascript(ES6+), and Bootstrap.
         </h4>
         <h4 className="px-5 mt-3 text-white text-center">
-          I'm interested in Front-End development as I feel most inspired by
-          client-facing design work.
+          I'm interested in Full-stack developement, with a focus in Front-end.
+          I've learned how to build projects from conception to deployment,
+          thanks to the Thinkful program.
         </h4>
       </Fade>
     </div>

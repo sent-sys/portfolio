@@ -51,11 +51,21 @@ export default function List() {
                 alt="Screenshot placeholder"
               />
               <div className="card-body">
-                <h5 className="card-title text-center">Project 2</h5>
-                <p className="card-text">Quick project description.</p>
-                <Link to="/" className="btn btn-primary">
-                  (placeholder GITHUB link)
-                </Link>
+                <h5 className="card-title text-center">We Love Movies</h5>
+                <p className="card-text">
+                  Currently this is only the Back-end portion of the project.
+                  Front-end forthcoming.
+                </p>
+                <div className="d-flex justify-content-around">
+                  <a
+                    href="https://github.com/sent-sys/c52_WeLoveMovies"
+                    className="btn btn-primary"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Github
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -67,11 +77,21 @@ export default function List() {
                 alt="Screenshot placeholder"
               />
               <div className="card-body">
-                <h5 className="card-title text-center">Project 3</h5>
-                <p className="card-text">Quick project description.</p>
-                <Link to="/" className="btn btn-primary">
-                  (placeholder GITHUB link)
-                </Link>
+                <h5 className="card-title text-center">Operation Grub Dash</h5>
+                <p className="card-text">
+                  Yet another Back-end solution, but this time, for an online,
+                  food-ordering system!
+                </p>
+                <div className="d-flex justify-content-around">
+                  <a
+                    href="https://github.com/sent-sys/c52_GrubDash_Project"
+                    className="btn btn-primary"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Github
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -85,11 +105,21 @@ export default function List() {
                 alt="Screenshot placeholder"
               />
               <div className="card-body">
-                <h5 className="card-title text-center">Project 1</h5>
-                <p className="card-text">Quick project description.</p>
-                <Link to="/" className="btn btn-primary">
-                  (placeholder GITHUB link)
-                </Link>
+                <h5 className="card-title text-center">Flashcards</h5>
+                <p className="card-text">
+                  A Front-end application with a UI for creating, and reviewing
+                  decks of flash cards. Built with React and Bootstrap.
+                </p>
+                <div className="d-flex justify-content-around">
+                  <a
+                    href="https://github.com/sent-sys/c52_Flashcards"
+                    className="btn btn-primary"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Github
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -101,7 +131,7 @@ export default function List() {
                 alt="Screenshot placeholder"
               />
               <div className="card-body">
-                <h5 className="card-title text-center">Project 2</h5>
+                <h5 className="card-title text-center">Pomodoro Timer</h5>
                 <p className="card-text">Quick project description.</p>
                 <Link to="/" className="btn btn-primary">
                   (placeholder GITHUB link)
@@ -117,7 +147,7 @@ export default function List() {
                 alt="Screenshot placeholder"
               />
               <div className="card-body">
-                <h5 className="card-title text-center">Project 3</h5>
+                <h5 className="card-title text-center">This Portfolio!</h5>
                 <p className="card-text">Quick project description.</p>
                 <Link to="/" className="btn btn-primary">
                   (placeholder GITHUB link)
