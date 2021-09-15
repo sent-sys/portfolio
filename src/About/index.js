@@ -19,10 +19,11 @@ export default function About() {
         <h4 className="px-5 text-white text-center">
           Using the full-stack skills I've honed through the program, and skills
           I've learned from my background in CS and programming, I am pursuing a
-          career in the Tech industry. My abilities favor:
+          career in the Tech industry.
         </h4>
         <h4 className="px-5 mt-3 text-white text-center">
-          ReactJS, CSS3, HTML5, Javascript(ES6+), and Bootstrap.
+          My abilities favor: ReactJS, CSS3, HTML5, Javascript(ES6+), and
+          Bootstrap.
         </h4>
         <h4 className="px-5 mt-3 text-white text-center">
           I'm interested in Full-stack developement, with a focus in Front-end.

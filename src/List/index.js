@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { Fade } from "react-reveal";
 
 export default function List() {
@@ -24,7 +23,7 @@ export default function List() {
                 </p>
                 <div className="d-flex justify-content-around">
                   <a
-                    href="https://github.com/sent-sys/portfolio"
+                    href="https://github.com/sent-sys/Restaurant_Reservation"
                     className="btn btn-primary"
                     target="_blank"
                     rel="noreferrer"
@@ -133,9 +132,24 @@ export default function List() {
               <div className="card-body">
                 <h5 className="card-title text-center">Pomodoro Timer</h5>
                 <p className="card-text">Quick project description.</p>
-                <Link to="/" className="btn btn-primary">
-                  (placeholder GITHUB link)
-                </Link>
+                <div className="d-flex justify-content-around">
+                  <a
+                    href="https://github.com/sent-sys/portfolio"
+                    className="btn btn-primary"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Github
+                  </a>
+                  <a
+                    href="https://fc-restaurant-res-frontend.herokuapp.com/"
+                    className="btn btn-warning"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Heroku Live Demo
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -148,10 +162,20 @@ export default function List() {
               />
               <div className="card-body">
                 <h5 className="card-title text-center">This Portfolio!</h5>
-                <p className="card-text">Quick project description.</p>
-                <Link to="/" className="btn btn-primary">
-                  (placeholder GITHUB link)
-                </Link>
+                <p className="card-text">
+                  This portfolio web page was built purely with React and
+                  Bootstrap!
+                </p>
+                <div className="d-flex justify-content-around">
+                  <a
+                    href="https://github.com/sent-sys/portfolio"
+                    className="btn btn-primary"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Github
+                  </a>
+                </div>
               </div>
             </div>
           </div>
