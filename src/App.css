@@ -35,6 +35,10 @@ hr {
   height: 800px;
 }
 
+.bottom-spacing {
+  height: 250px;
+}
+
 @media screen and (max-width: 375px) {
   .before-intro {
     height: 150px;

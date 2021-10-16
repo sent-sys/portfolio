@@ -27,6 +27,7 @@ export default function Home() {
             <div className="mb-3 m-5 after-intro"></div>
           </div>
           <List />
+          <div className="bottom-spacing" />
         </Route>
         <Route path={`${url}/about`}>
           <About />
