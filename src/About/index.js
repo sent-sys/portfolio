@@ -31,8 +31,6 @@ export default function About() {
           I've learned how to build projects from conception to deployment,
           thanks to the Thinkful program.
         </h4>
-      </Fade>
-      <Fade bottom>
         <img src={icon} className="mx-auto d-block img-fluid about-icon" />
       </Fade>
     </div>

@@ -35,6 +35,7 @@ export default function Home() {
         </Route>
         <Route path={`${url}/about`}>
           <About />
+          <div className="bottom-spacing" />
         </Route>
       </Switch>
       <Footer />

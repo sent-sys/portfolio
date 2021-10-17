@@ -12,7 +12,7 @@ body {
 }
 
 .about-icon {
-  height: 600px;
+  height: 700px;
 }
 
 .home-color {
@@ -50,6 +50,10 @@ hr {
 @media screen and (max-width: 375px) {
   .before-intro {
     height: 150px;
+  }
+
+  .icon {
+    height: 250px;
   }
 
   .after-intro {
