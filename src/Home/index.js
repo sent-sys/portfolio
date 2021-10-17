@@ -4,6 +4,7 @@ import Footer from "../Layout/Footer";
 import { Fade } from "react-reveal";
 import { Switch, Route, useRouteMatch } from "react-router-dom";
 import Nav from "../Layout/Nav";
+import selfIcon from "../Icon/SelfIcon.png";
 
 export default function Home() {
   const { url } = useRouteMatch();
@@ -14,7 +15,10 @@ export default function Home() {
         <Route exact path={url}>
           <div>
             <div className="mt-3 m-5 before-intro"></div>
-            <Fade bottom delay={300}>
+            <Fade bottom delay={200}>
+              <img className="mx-auto d-block img-fluid icon" src={selfIcon} />
+            </Fade>
+            <Fade bottom delay={500}>
               <h1 className="text-white text-center m-3">
                 My name is Matthew Ho
               </h1>

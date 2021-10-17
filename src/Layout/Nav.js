@@ -21,7 +21,7 @@ export default function Nav() {
       <div className="col-6">
         <div className="d-flex justify-content-end">
           <Link
-            className="btn btn-primary position-relative me-2"
+            className="btn btn-primary position-relative me-2 shadow"
             to="/portfolio/about"
           >
             about

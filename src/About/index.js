@@ -1,4 +1,5 @@
 import { Fade } from "react-reveal";
+import icon from "../Icon/compIcon.svg";
 
 export default function About() {
   return (
@@ -22,14 +23,17 @@ export default function About() {
           career in the Tech industry.
         </h4>
         <h4 className="px-5 mt-3 text-white text-center">
-          My abilities favor: ReactJS, CSS3, HTML5, Javascript(ES6+), and
-          Bootstrap.
+          My abilities favor: ReactJS/React Native, CSS3, HTML5,
+          Javascript(ES6+), and Bootstrap.
         </h4>
         <h4 className="px-5 mt-3 text-white text-center">
           I'm interested in Full-stack developement, with a focus in Front-end.
           I've learned how to build projects from conception to deployment,
           thanks to the Thinkful program.
         </h4>
+      </Fade>
+      <Fade bottom>
+        <img src={icon} className="mx-auto d-block img-fluid about-icon" />
       </Fade>
     </div>
   );

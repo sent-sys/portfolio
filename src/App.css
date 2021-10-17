@@ -3,8 +3,16 @@ body {
   font-family: Roboto Mono, sans-serif;
 }
 
+.icon {
+  height: 400px;
+}
+
 .about-section {
   height: 1000px;
+}
+
+.about-icon {
+  height: 600px;
 }
 
 .home-color {
@@ -28,11 +36,11 @@ hr {
 }
 
 .before-intro {
-  height: 350px;
+  height: 100px;
 }
 
 .after-intro {
-  height: 800px;
+  height: 400px;
 }
 
 .bottom-spacing {
