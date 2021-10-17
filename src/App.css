@@ -40,7 +40,10 @@ hr {
 }
 
 .after-intro {
-  height: 400px;
+  height: 250px;
+}
+.after-icon {
+  height: 200px;
 }
 
 .bottom-spacing {
@@ -57,6 +60,6 @@ hr {
   }
 
   .after-intro {
-    height: 400px;
+    height: 100px;
   }
 }

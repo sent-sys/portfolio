@@ -5,6 +5,7 @@ import { Fade } from "react-reveal";
 import { Switch, Route, useRouteMatch } from "react-router-dom";
 import Nav from "../Layout/Nav";
 import selfIcon from "../Icon/SelfIcon.png";
+import progIcon from "../Icon/progIcon.svg";
 
 export default function Home() {
   const { url } = useRouteMatch();
@@ -29,6 +30,11 @@ export default function Home() {
               </h1>
             </Fade>
             <div className="mb-3 m-5 after-intro"></div>
+            <img
+              src={progIcon}
+              className="mx-auto d-block img-fluid prog-icon"
+            />
+            <div className="mb-3 m-5 after-icon"></div>
           </div>
           <List />
           <div className="bottom-spacing" />
