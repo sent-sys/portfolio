@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.55cd3eec.chunk.css",
-    "main.js": "/portfolio/static/js/main.3f6d22d3.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.3f6d22d3.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.93977f79.chunk.css",
+    "main.js": "/portfolio/static/js/main.c95449ff.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c95449ff.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.bcd5af5a.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.bcd5af5a.js.map",
     "static/js/2.2666415a.chunk.js": "/portfolio/static/js/2.2666415a.chunk.js",
     "static/js/2.2666415a.chunk.js.map": "/portfolio/static/js/2.2666415a.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.55cd3eec.chunk.css.map": "/portfolio/static/css/main.55cd3eec.chunk.css.map",
+    "static/css/main.93977f79.chunk.css.map": "/portfolio/static/css/main.93977f79.chunk.css.map",
     "static/js/2.2666415a.chunk.js.LICENSE.txt": "/portfolio/static/js/2.2666415a.chunk.js.LICENSE.txt",
     "static/media/SelfIcon.5c8de558.png": "/portfolio/static/media/SelfIcon.5c8de558.png"
   },
   "entrypoints": [
     "static/js/runtime-main.bcd5af5a.js",
     "static/js/2.2666415a.chunk.js",
-    "static/css/main.55cd3eec.chunk.css",
-    "static/js/main.3f6d22d3.chunk.js"
+    "static/css/main.93977f79.chunk.css",
+    "static/js/main.c95449ff.chunk.js"
   ]
 }
