@@ -6,6 +6,7 @@ import { Switch, Route, useRouteMatch } from "react-router-dom";
 import Nav from "../Layout/Nav";
 import selfIcon from "../Icon/SelfIcon.png";
 import progIcon from "../Icon/progIcon.svg";
+import resume from "../DL/MH.pdf";
 
 export default function Home() {
   const { url } = useRouteMatch();
@@ -39,7 +40,15 @@ export default function Home() {
               alt="Tech Icon"
               className="mx-auto d-block img-fluid prog-icon"
             />
-            <div className="mb-3 m-5 after-icon"></div>
+            <div className="d-flex mt-5 after-icon justify-content-center align-items-center">
+              <a
+                href={resume}
+                download={true}
+                className="text-decoration-none text-white git-link"
+              >
+                <h3>download resume (55.7kb)</h3>
+              </a>
+            </div>
           </div>
           <List />
           <div className="bottom-spacing" />

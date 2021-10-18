@@ -1,3 +1,5 @@
+import resume from "../DL/MH.pdf";
+
 export default function Footer() {
   return (
     <div className="footer align-items-center my-5">
@@ -13,9 +15,10 @@ export default function Footer() {
           </a>
           <a
             className="text-white text-decoration-none link-light git-link text-center"
-            href="https://docs.google.com/document/d/1y4nawcWlo6l-v6Qckkenj2s0cWCc53D4q2IzAXft2i0/edit?usp=sharing"
+            href={resume}
             target="_blank"
             rel="noreferrer"
+            download={true}
           >
             Resume
           </a>
