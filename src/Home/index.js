@@ -17,7 +17,11 @@ export default function Home() {
           <div>
             <div className="mt-3 m-5 before-intro"></div>
             <Fade bottom delay={200}>
-              <img className="mx-auto d-block img-fluid icon" src={selfIcon} />
+              <img
+                className="mx-auto d-block img-fluid icon"
+                alt="Self Icon"
+                src={selfIcon}
+              />
             </Fade>
             <Fade bottom delay={500}>
               <h1 className="text-white text-center m-3">
@@ -32,6 +36,7 @@ export default function Home() {
             <div className="mb-3 m-5 after-intro"></div>
             <img
               src={progIcon}
+              alt="Tech Icon"
               className="mx-auto d-block img-fluid prog-icon"
             />
             <div className="mb-3 m-5 after-icon"></div>

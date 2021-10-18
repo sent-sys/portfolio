@@ -1,14 +1,18 @@
 import { Fade } from "react-reveal";
+import img1 from "../Images/1.jpg";
+import img2 from "../Images/2.jpg";
+import img3 from "../Images/3.jpg";
+import imgRes from "../Images/ResPNG.png";
 
 export default function List() {
   return (
-    <div>
+    <div className="container-fluid flex-column w-75 justify-content-center text-center">
       <Fade bottom>
         <div className="row p-2">
           <div className="col-12 col-sm-6 col-md-4">
             <div className="card text-white card-bg shadow my-2">
               <img
-                src="images/ResPNG.png"
+                src={imgRes}
                 className="card-img-top"
                 alt="Restaurant Reservation System"
               />
@@ -45,7 +49,7 @@ export default function List() {
           <div className="col-12 col-sm-6 col-md-4">
             <div className="card text-white card-bg shadow my-2">
               <img
-                src="images/2.jpg"
+                src={img2}
                 className="card-img-top"
                 alt="Screenshot placeholder"
               />
@@ -71,7 +75,7 @@ export default function List() {
           <div className="col-12 col-sm-6 col-md-4">
             <div className="card text-white card-bg shadow my-2">
               <img
-                src="images/3.jpg"
+                src={img3}
                 className="card-img-top"
                 alt="Screenshot placeholder"
               />
@@ -99,7 +103,7 @@ export default function List() {
           <div className="col-12 col-sm-6 col-md-4">
             <div className="card text-white card-bg shadow my-2">
               <img
-                src="images/1.jpg"
+                src={img1}
                 className="card-img-top"
                 alt="Screenshot placeholder"
               />
@@ -125,7 +129,7 @@ export default function List() {
           <div className="col-12 col-sm-6 col-md-4">
             <div className="card text-white card-bg shadow my-2">
               <img
-                src="images/2.jpg"
+                src={img2}
                 className="card-img-top"
                 alt="Screenshot placeholder"
               />
@@ -156,7 +160,7 @@ export default function List() {
           <div className="col-12 col-sm-6 col-md-4">
             <div className="card text-white card-bg shadow my-2">
               <img
-                src="images/3.jpg"
+                src={img3}
                 className="card-img-top"
                 alt="Screenshot placeholder"
               />
